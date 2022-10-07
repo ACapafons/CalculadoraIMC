@@ -5,7 +5,7 @@
 
 
     if 
-        which cowsay > /fdev/null
+        which cowsay > /dev/null
     then
         echo "1. Cowsay SI está instalado."
     else
@@ -14,7 +14,7 @@
 
 
     if 
-        which sl > /fdev/null
+        which sl > /dev/null
     then
         echo "2. sl SI está instalado."
     else
@@ -23,7 +23,7 @@
 
 
      if
-        which net-tools > /fdev/null
+        which net-tools > /dev/null
     then
         echo "3. net-tools SI está instalado."
     else
@@ -40,7 +40,7 @@
                     
                     1) echo "Eligió la opcion 1"
                     if 
-                        which cowsay > /fdev/null
+                        which cowsay > /dev/null
                     then
                         sudo apt remove -y cowsay
                     else
@@ -51,7 +51,7 @@
 
                     2) echo "Eligió la opcion 2"
                     if 
-                        which sl > /fdev/null
+                        which sl > /dev/null
                     then
                         sudo apt remove -y sl
                     else
@@ -63,7 +63,7 @@
 
                     3) echo "Eligió la opcion 3"
                     if 
-                        which net-tools > /fdev/null
+                        which net-tools > /dev/null
                     then
                         sudo apt remove -y net-tools
                     else
