@@ -1,5 +1,5 @@
 #!/bin/bash
-aleatorio=$(($RANDOM % 100 + 1)) 
+aleatorio=$(($RANDOM % $maximo + $minimo)) 
 while true
 do
 read -p "Insertar un número entre el 1 y el 100: " numero
